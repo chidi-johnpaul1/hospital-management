@@ -3,14 +3,14 @@ package com.calpha.hospital.config;
 
 
 	import com.calpha.hospital.service.CustomUserDetailsService;
-    import com.calpha.hospital.service.UsersService;
+        import com.calpha.hospital.service.UsersService;
 	import com.calpha.hospital.model.RoleNames;
 	
 	import org.springframework.beans.factory.annotation.Autowired;
 	//import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureWebMvc;
-    import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
-    import org.springframework.context.annotation.Bean;
-    import org.springframework.context.annotation.ComponentScan;
+        import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
+        import org.springframework.context.annotation.Bean;
+        import org.springframework.context.annotation.ComponentScan;
 	import org.springframework.context.annotation.Configuration;
 	import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 	import org.springframework.security.config.annotation.web.builders.HttpSecurity;
