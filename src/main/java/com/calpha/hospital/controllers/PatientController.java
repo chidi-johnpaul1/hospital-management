@@ -53,8 +53,7 @@ public class PatientController {
         }
         else {
             /**
-        	* Registration successful, save user
-            * Set user role to USER and set it as active
+        	* Registration  successful, save patient
             **/
         	patientService.savePatient(patient);
 
